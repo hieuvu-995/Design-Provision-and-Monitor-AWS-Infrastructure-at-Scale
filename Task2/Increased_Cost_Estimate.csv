@@ -1,0 +1,23 @@
+﻿Estimate summary,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,
+0,19974.42,239693,USD,,,,,
+,,* Includes upfront cost,,,,,,
+,,,,,,,,
+,,,,,,,,
+Detailed Estimate,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,263.25,3159,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,S3 Standard,0,235.52,2826.24,USD,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,537.6,6451.2,USD,"Data transfer out to internet (5 TB per month), Data transfer out to origin (5 TB per month), Number of requests (HTTPS) ( per month)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,196.69,2360.28,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,13904.24,166850.88,USD,"Storage volume (General Purpose SSD (gp3)), Storage amount (5 TB), Nodes (4), Instance Type (db.m4.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (5 TB), General Purpose SSD (gp3) - IOPS (12000), General Purpose SSD (gp3) - Throughput (500 MiBps)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,4837.12,58045.44,USD,"Operating system (Linux), Quantity (8), Pricing strategy (On-Demand Instances 1 Year Partial Upfront), Storage amount (1 TB), Instance type (m5a.4xlarge)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+Change:,,,,,,,,
+EC2: Quantity 6 =>  8,,,,,,,,
+"RDS: db.m4.2xlarge, 2 nodes => db.m4.4xlarge, 4 nodes",,,,,,,,
